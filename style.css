@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Changa', sans-serif;
+}
+
+body{
+   background: linear-gradient(to right, #021b79, #0575E6); 
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    font-size: 3rem;
+    color:white;
+    letter-spacing: 10px;
+    font-weight: 600;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0.7;
+}
+.container_Data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0.7;
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:black;
+    height: 175px;
+    width: 375px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.data div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.dataAtual{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.agora{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:black;
+    height: 200px;
+    width: 750px;
+    border-radius: 8px;
+    margin: 40px;
+
+}
+.relogio div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.relogio p{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.relogio p.tempo{
+    font-size: 20px;
+}
+
+@media(min-width:320px) and (max-width:500px){
+    h1{
+        font-size: 2.5rem;
+    }
+    .data{
+        justify-content: center;
+    }
+    .relogio{
+        margin: 10px;
+        flex-direction: column;
+        height: 500px;
+    }
+    .container{
+        margin: 10px;
+    }
+
+}
